@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(4, 62, 5);
+        border: 2px seagreen;
+    }
+    .box{
+         width: 100px;
+        height: 80px;
+        background-color: rgb(118, 248, 5);
+        margin: 5px;
+        border: 3px black;
+        animation-name: rightmovement;
+        position: relative;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-timing-function:ease;
+        animation-direction: alternate;
+        
+    }
+        
+    @keyframes rightmovement{
+        from{
+            top: 0;
+            left: 0;
+        }
+        to{
+            top: 0;
+            left: 1000px;
+        }
+        
+    }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+    <h1>hiii</h1>
+
+   </div>
+  
+</body>
+</html>
